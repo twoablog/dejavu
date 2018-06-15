@@ -1,0 +1,6 @@
+framework module Pods_DejaVuTests {
+  umbrella header "Pods-DejaVuTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
