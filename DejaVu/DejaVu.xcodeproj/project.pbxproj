@@ -11,6 +11,7 @@
 		7C95154620D4739C00199D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95154520D4739C00199D88 /* AppDelegate.swift */; };
 		7C95154D20D4739D00199D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C95154C20D4739D00199D88 /* Assets.xcassets */; };
 		7C95155020D4739D00199D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C95154E20D4739D00199D88 /* LaunchScreen.storyboard */; };
+		7C95156720D47B4200199D88 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C95156620D47B4200199D88 /* Place.swift */; };
 		C9D12AF833D2F141B71FB75D /* Pods_DejaVu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7550D09C9F5909F490250B83 /* Pods_DejaVu.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		7C95155120D4739D00199D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C95155620D4739D00199D88 /* DejaVuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DejaVuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C95155C20D4739D00199D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C95156620D47B4200199D88 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 		921546E4C1D9F8FE1F013424 /* Pods-DejaVuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DejaVuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DejaVuTests/Pods-DejaVuTests.release.xcconfig"; sourceTree = "<group>"; };
 		EDC86955968E2DE44A90C424 /* Pods_DejaVuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DejaVuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7AF46E1DBBA716F77B38256 /* Pods-DejaVu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DejaVu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DejaVu/Pods-DejaVu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 		7C95154420D4739C00199D88 /* DejaVu */ = {
 			isa = PBXGroup;
 			children = (
+				7C95156520D47ABB00199D88 /* Place */,
 				7C95154520D4739C00199D88 /* AppDelegate.swift */,
 				7C95154C20D4739D00199D88 /* Assets.xcassets */,
 				7C95154E20D4739D00199D88 /* LaunchScreen.storyboard */,
@@ -106,6 +109,14 @@
 				7C95155C20D4739D00199D88 /* Info.plist */,
 			);
 			path = DejaVuTests;
+			sourceTree = "<group>";
+		};
+		7C95156520D47ABB00199D88 /* Place */ = {
+			isa = PBXGroup;
+			children = (
+				7C95156620D47B4200199D88 /* Place.swift */,
+			);
+			path = Place;
 			sourceTree = "<group>";
 		};
 		A4C2D321FF2B822590D81746 /* Pods */ = {
@@ -282,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C95154620D4739C00199D88 /* AppDelegate.swift in Sources */,
+				7C95156720D47B4200199D88 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
